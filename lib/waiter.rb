@@ -1,4 +1,5 @@
 class Waiter
+<<<<<<< HEAD
   
   attr_reader :name, :yrs_experience
   
@@ -38,4 +39,9 @@ class Waiter
     worst_tipped_meal.customer
   end
  
+=======
+  def new_meal(customer, total, tip=0)
+    Meal.new(self, customer, total, tip)
+  end
+>>>>>>> 223350402384ef4f6c5a365a9c6f57a627ed4068
 end

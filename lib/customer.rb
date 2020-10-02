@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     class Customer
       attr_accessor :name, :age
      
@@ -47,3 +48,13 @@
       end
      
     end
+=======
+class Customer
+  
+  def new_meal(waiter, total, tip=0)
+    Meal.new(waiter, self, total, tip)
+  end
+
+  
+end
+>>>>>>> 223350402384ef4f6c5a365a9c6f57a627ed4068
